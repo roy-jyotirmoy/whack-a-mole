@@ -1,0 +1,35 @@
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+}
+.grid {
+  width: 306px; /* 600px because we want 3 squares of 200px in one row */
+  height: 306px;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid black 1px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: solid black 1px;
+  background-color: lightseagreen;
+}
+
+#start {
+  margin-top: 12px;
+  margin-left: 94px;
+  border-color: black;
+  border-radius: 5px;
+  background-color: lightgreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mole {
+  background-image: url('../images/mole.png'); /* remember to use .. in the URL path */
+}
